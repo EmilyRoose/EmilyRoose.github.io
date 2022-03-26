@@ -1,7 +1,7 @@
-# My-page-s2i
+# EmilyRoose.github.io
 Progetto HTML/CSS start2impact:
 
-1- Effettua il Download ZIP della repository "My-page-s2i"
+1- Effettua il Download ZIP della repository " EmilyRoose.github.io"
 
 2- Estrai i file .zip
 
