@@ -69,6 +69,11 @@
   height: auto;
 }
 
+#emily {
+  width: 120px;
+  height: auto;
+}
+
 @media screen and (max-width: 500px) {
   .cover {
     padding-top: 80px;

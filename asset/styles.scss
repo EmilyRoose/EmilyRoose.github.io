@@ -4,11 +4,13 @@
   font-family: 'Jura', sans-serif;
 }
 /*LOGS HTML CSS BOTSTRAP*/
+
 .col-lg-4 {
   width: 130px;
   height: auto;
 }
 /*SOCIAL BAR*/
+
 .social-bar {
   position: fixed;
   top: 90px;
@@ -57,13 +59,17 @@
   justify-content: flex-start;
 }
 /*SEND BUTTON*/
-
 .btn-danger {
   opacity: 70%;
 }
 
 #s2i {
   width: 300px;
+  height: auto;
+}
+
+#emily {
+  width: 120px;
   height: auto;
 }
 @media screen and (max-width: 500px) {
