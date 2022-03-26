@@ -4,11 +4,13 @@
   font-family: 'Jura', sans-serif;
 }
 
+/*LOGS HTML CSS BOTSTRAP*/
 .col-lg-4 {
   width: 130px;
   height: auto;
 }
 
+/*SOCIAL BAR*/
 .social-bar {
   position: fixed;
   top: 90px;
@@ -16,6 +18,8 @@
 
 .social-bar ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .social-bar ul li a {
@@ -50,8 +54,23 @@
   background: #00bf8f;
 }
 
+.form-label {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/*SEND BUTTON*/
+.btn-danger {
+  opacity: 70%;
+}
+
+#s2i {
+  width: 300px;
+  height: auto;
+}
+
 @media screen and (max-width: 500px) {
   .cover {
-    margin-top: 80px;
+    padding-top: 80px;
   }
 }
