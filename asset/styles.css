@@ -4,27 +4,6 @@
   font-family: 'Jura', sans-serif;
 }
 
-/*COLOR WHIT VAR*/
-.navbar-brand b {
-  color: #C3B8F1;
-}
-
-.btn-close {
-  background-color: #F48E8E;
-}
-
-.navbar-toggler {
-  background-color: #BAF4CA;
-}
-
-#footer {
-  background-color: #C3B8F1;
-}
-
-.offcanvas-title {
-  color: #F48E8E;
-}
-
 /*IMG HTML CSS BOTSTRAP*/
 .col-lg-4 {
   width: 130px;
@@ -97,6 +76,13 @@
   height: auto;
 }
 
+/*IMG E FIGCAPTION 'ABOUT'*/
+.about img {
+  width: 200px;
+  height: auto;
+  border-radius: 200px;
+}
+
 /*RESPONSIVE*/
 @media screen and (max-width: 500px) {
   .cover {
@@ -104,5 +90,23 @@
   }
 }
 
-/*VARIABLES*/
-@import "_colors.scss"
+/*COLOR WHIT VAR*/
+.navbar-brand b {
+  color: #C3B8F1;
+}
+
+.btn-close {
+  background-color: #F48E8E;
+}
+
+.navbar-toggler {
+  background-color: #BAF4CA;
+}
+
+#footer {
+  background-color: #C3B8F1;
+}
+
+.offcanvas-title {
+  color: #F48E8E;
+}

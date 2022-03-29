@@ -3,26 +3,6 @@
   margin: 0;
   font-family: 'Jura', sans-serif;
 }
-/*COLOR WHIT VAR*/
-.navbar-brand b {
-  color: $color3;
-}
-
-.btn-close {
-  background-color: $color1;
-}
-
-.navbar-toggler {
-  background-color: $color2;
-}
-
-#footer {
-  background-color: $color3;
-}
-
-.offcanvas-title {
-  color: $color1;
-}
 /*IMG HTML CSS BOTSTRAP*/
 .col-lg-4 {
   width: 130px;
@@ -93,11 +73,19 @@
   width: 120px;
   height: auto;
 }
+/*IMG E FIGCAPTION 'ABOUT'*/
+.about {
+  img {
+    width: 200px;
+    height: auto;
+    border-radius: 200px;
+  }
+}
 /*RESPONSIVE*/
 @media screen and (max-width: 500px) {
   .cover {
     padding-top: 80px;
   }
 }
-/*VARIABLES*/
-@import "asset/_colors.scss"
+/*PARTIALS*/
+@import '_colors.scss'
