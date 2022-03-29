@@ -3,34 +3,31 @@
   margin: 0;
   font-family: 'Jura', sans-serif;
 }
-
 /*COLOR WHIT VAR*/
 .navbar-brand b {
-  color: #C3B8F1;
+  color: $color3;
 }
 
 .btn-close {
-  background-color: #F48E8E;
+  background-color: $color1;
 }
 
 .navbar-toggler {
-  background-color: #BAF4CA;
+  background-color: $color2;
 }
 
 #footer {
-  background-color: #C3B8F1;
+  background-color: $color3;
 }
 
 .offcanvas-title {
-  color: #F48E8E;
+  color: $color1;
 }
-
 /*IMG HTML CSS BOTSTRAP*/
 .col-lg-4 {
   width: 130px;
   height: auto;
 }
-
 /*SOCIAL BAR*/
 .social-bar {
   position: fixed;
@@ -74,14 +71,14 @@
 .ml {
   background: #00bf8f;
 }
-
 /*NEWS LETTER E-MAIL ADDRESS*/
+
 .form-label {
   display: flex;
   justify-content: flex-start;
 }
-
 /*ID*/
+
 #git {
   width: 300px;
   height: auto;
@@ -96,13 +93,11 @@
   width: 120px;
   height: auto;
 }
-
 /*RESPONSIVE*/
 @media screen and (max-width: 500px) {
   .cover {
     padding-top: 80px;
   }
 }
-
 /*VARIABLES*/
-@import "_colors.scss"
+@import "asset/_colors.scss"

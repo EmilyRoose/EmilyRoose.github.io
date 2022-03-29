@@ -9,4 +9,8 @@ Progetto HTML/CSS start2impact:
 
 4- Goditi il sito!
 
-Allegata troverete una presentazione per comprendere al meglio il sito.
+Allegata troverete una presentazione per comprendere al meglio il sito:
+https://docs.google.com/presentation/d/1GABe553vxRrt6W_a3ZkZH9vXn_CEqncj7uKW8U-2btY/edit?usp=sharing
+
+
+di seguito, link per visualizzare il sito online https://emilyroose.github.io/
