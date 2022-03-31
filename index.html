@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--- Bootstrap CSS --->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <title>Create your page</title>
+  <title>Emily Ortolani Web Developer</title>
   <link rel="icon" type="image/x-icon" href="asset/img/favicon.ico">
   <link rel="stylesheet" href="socialicon/style.css">
   <link rel='stylesheet' href='asset/styles.css' />
@@ -26,27 +26,29 @@
   </div>
   <!--- NAVBAR MENU --->
   <header>
-    <nav class="navbar navbar-light fixed-top" style="background-color: #FFFFFF">
+    <nav class="navbar navbar-light fixed-top" style="background-color:#FFFFFF">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><b>Emily Ortolani</b> <small class="text-muted mx-2"> Web Developer</small> </a>
+        <a class="navbar-brand" href="#">
+          <h1>Emily Ortolani <small class="text-muted"> Web Developer</small></h1>
+        </a>
         <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-          <span class="navbar-toggler-icon mx-3"></span>
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas offcanvas-end" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> Menù </h5>
             <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body ">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#About-me">About me</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Skills">Skills</a>
+                <a class="nav-link" href="asset/skills.html">Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#Works">Works </a>
+                <a class="nav-link" href="asset/skills.html">Works </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#Contacts">Contacts </a>
@@ -60,95 +62,58 @@
     </nav>
   </header>
   <!--COVER IMAGE-->
-  <div class="cover mb-5">
+  <div class="cover">
     <img src="asset/img/img.cover.png" class="img-fluid" alt="emily create your page">
   </div>
   <section>
     <!--ABOUT-ME-->
-    <div class=" container-fluid  text-center">
-      <a name="About-me">
-        <img src="asset/img/logo-punti.png" alt="" class="img-fluid py-5">
-        <div class="container my-5">
-          <figure class="about">
-            <img align="left" src="asset/img/foto-emily.jpg" alt="primo piano di emily" class="img-fluid mx-5">
-            <figcaption align="left">
-              <h1>About me</h1><br>Hi! i'm Emily Ortolani, I'm 25. I'm italian student with the goal of becoming a great front-end developer. <br>
-              Humanities studies brought me closer to the world of psychology and sociology, <br>
-              so I was also passionate about the psychological side of marketing. <br>
-              Meanwhile my previous work experiences has enabled me to develop a propensity for teamwork and problem solving. <br>I still have a long way to go, but you have to start somewhere! Right? <br>
-              <br> Welcome to my portfolio!
-            </figcaption>
-          </figure>
-        </div>
-
-        <!--SKILLS--->
-        <div class="container-fluid py-5">
-          <a name="Skills">
-            <img src="asset/img/logo-punti.png" alt="" class="img-fluid pb-5">
-            <h1>Skills</h1>
-            <div class="container my-5">
-              <p>It's essential for a web developer to be a cross between different areas.<br>
-                So I'm also training in graphic design, copywriting and the next step will be SEO orientation.<br>
-                The goal is to learn transversal skills with a 360 degree approach. <br>
-                I'm able to restyle websites and make it from scratch, using a responsive interface, which adapts to any device. <br>
-                I am developing my skills and my knowledge about HTML, CSS and use of Bootstrap through strat2impact.
-                <br><br>This is just the beginning of my journey to this new world!
-              </p>
-              <div class=" d-flex text justify-content-center mx-auto">
-                <div class="col-lg-4 "><img src="asset/img/logohtml.png" alt="html5" class="img-fluid px-4 py-4"></div>
-                <div class="col-lg-4 "><img src="asset/img/logocss.png" alt="css3" class="img-fluid px-4 py-4"></div>
-                <div class="col-lg-4 "><img src="asset/img/bootstrap-logo.png" alt="bootstrap" class="img-fluid px-4 py-4"></div>
-              </div>
-            </div>
-        </div>
-        <!--WORKS-->
-        <a name="Works">
-          <img src="asset/img/logo-punti.png" alt="" class="img-fluid pb-5">
-          <h1>Works in progress</h1>
-          <div class="container my-4">
-            <div class="text-center">
-              <p> Well, this is the first one!</p>
-              <div class="spinner-border my-5" role="status">
-                <span class="visually-hidden">Loading...</span>
-              </div>
-              <p> For more information visit my profile: <br>
-                <a href="https://github.com/EmilyRoose"> <img src="asset/img/github-logo.jpg" alt="link to github" class="img-fluid" id="git"> </a>
-                <a href="https://talent.start2impact.it/profile/Emily%20Ortolani"><img src="asset/img/s2i.jpg" alt="link to start2impact" class="img-fluid" id="s2i"></a>
-              </p>
-            </div>
+    <div class=" container-fluid text-center">
+      <div class="container">
+        <a name="About-me">
+          <img src="asset/img/logo-punti.png" alt="" class="img-fluid" id="logo">
+          <div class="container my-5">
+            <figure class="about">
+              <img align="left" src="asset/img/foto-emily.jpg" alt="primo piano di emily" class="img-fluid" id=my-photo>
+              <figcaption align="left">
+                <h3>About me</h3><br>Hi! i'm Emily Ortolani, I'm 25. I'm italian student with the goal of becoming a great front-end developer. <br>
+                Humanities studies brought me closer to the world of psychology and sociology, <br>
+                so I was also passionate about the psychological side of marketing. <br>
+                Meanwhile my previous work experiences has enabled me to develop a propensity for teamwork and problem solving. <br>I still have a long way to go, but you have to start somewhere! Right? <br>
+                <br> Welcome to my portfolio!
+              </figcaption>
+            </figure>
           </div>
-          <!--CONTACTS-->
-          <a name="Contacts">
-            <img src="asset/img/logo-punti.png" alt="" class="img-fluid py-5">
-            <h1>Contacts</h1>
-
-            <div class="container p-4">
-              <div class="mb-4">
-                <p>
-                  For any information or enquiries do not hesitate to contact me:
-                </p>
-              </div>
+      </div>
   </section>
-  </div>
-  <form action="">
-    <div class="container my-5 px-5">
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" placeholder="name@example.com">
+  <section>
+    <!--CONTACTS-->
+    <section class="container-fluid text-center">
+      <a name="Contacts">
+        <img src="asset/img/logo-punti.png" alt="" class="img-fluid" id="logo">
+        <h3>Contacts</h3>
+        <p>
+          For any information or enquiries do not hesitate to contact me:
+        </p>
+    </section>
+    <form action="contact">
+      <div class="container my-5 px-5">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"></label>
+          <textarea class="form-control" rows="3" placeholder="Text here.."></textarea>
+        </div>
       </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label"></label>
-        <textarea class="form-control" rows="3" placeholder="Text here.."></textarea>
+      <div class=" d-flex justify-content-center">
+        <div class="col-auto">
+          <!-- BUTTON -->
+          <button type="submit" class="btn btn-danger mb-4">Send</button>
+        </div>
       </div>
+    </form>
     </div>
-    <div class="row d-flex justify-content-center">
-      <div class="col-auto">
-        <!-- BUTTON -->
-        <button type="submit" class="btn btn-danger mb-4">Send</button>
-      </div>
-    </div>
-  </form>
-  </div>
 </body>
 
 <!-- FOOTER -->
@@ -178,7 +143,7 @@
   <!--COPYRIGHT-->
   <div class="container-fluid text-white text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
     © 2022 Copyright:
-    <a class="text-white" href="file:///C:/Users/Emily/OneDrive/Desktop/My-page-s2i/index.html"><img src="asset/img/logo.png" alt="emily create" id="emily"></a>
+    <a href="file:///C:/Users/Emily/OneDrive/Desktop/My-page-s2i/index.html"><img src="asset/img/logo.png" alt="emily create" id="emily"></a>
   </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">

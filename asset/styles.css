@@ -4,7 +4,24 @@
   font-family: 'Jura', sans-serif;
 }
 
-/*IMG HTML CSS BOTSTRAP*/
+/*TEXT MUTED 'Web Developer'*/
+.text-muted {
+  padding-left: 30px;
+}
+
+/*MENU*/
+.offcanvas-header {
+  padding-top: 40px;
+}
+
+/*IMG E FIGCAPTION 'ABOUT'*/
+.about img {
+  width: 200px;
+  height: auto;
+  border-radius: 200px;
+}
+
+/*IMG SKILLS PAGE HTML CSS BOTSTRAP*/
 .col-lg-4 {
   width: 130px;
   height: auto;
@@ -13,7 +30,7 @@
 /*SOCIAL BAR*/
 .social-bar {
   position: fixed;
-  top: 90px;
+  top: 150px;
 }
 
 .social-bar ul {
@@ -76,24 +93,42 @@
   height: auto;
 }
 
-/*IMG E FIGCAPTION 'ABOUT'*/
-.about img {
-  width: 200px;
-  height: auto;
-  border-radius: 200px;
+#logo {
+  justify-content: center;
+  padding: 80px;
+}
+
+#my-photo {
+  margin-left: 150px;
+  margin-right: 40px;
 }
 
 /*RESPONSIVE*/
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
+  .navbar div a h1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .text-muted {
+    padding: 10;
+  }
   .cover {
-    padding-top: 80px;
+    padding-top: 150px;
+  }
+  #my-photo {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  #logo {
+    padding: 30px;
   }
 }
 
 /*PARTIALS*/
 /*COLOR WHIT VAR*/
-.navbar-brand b {
+.navbar div a h1 {
   color: #C3B8F1;
+  font-size: 30px;
 }
 
 .btn-close {

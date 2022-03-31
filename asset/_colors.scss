@@ -1,9 +1,10 @@
 $color1: #F48E8E;
 $color2: #BAF4CA;
-$color3: #C3B8F1;
-/*COLOR WHIT VAR*/
-.navbar-brand b {
+$color3: #C3B8F1; /*COLOR WHIT VAR*/
+
+.navbar div a h1 {
   color: $color3;
+  font-size: 30px;
 }
 
 .btn-close {
