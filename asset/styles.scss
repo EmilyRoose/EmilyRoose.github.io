@@ -17,9 +17,29 @@
     width: 200px;
     height: auto;
     border-radius: 200px;
+    margin-left: 150px;
+    margin-right: 40px;
   }
 }
+/*IMG E FIGCAPTION 'SKILLS'*/
+.skills img {
+  width: 300px;
+  height: auto;
+  border-radius: 200px;
+  margin-left: 100px;
+  margin-right: 36px;
+  margin-bottom: 16px;
+}
 /*IMG SKILLS PAGE HTML CSS BOTSTRAP*/
+
+.skills-logs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
 .col-lg-4 {
   width: 130px;
   height: auto;
@@ -67,11 +87,47 @@
 .ml {
   background: #00bf8f;
 }
-/*NEWS LETTER E-MAIL ADDRESS*/
+/*CONTACTS*/
+.contact {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+/*FOOTER*/
+
+.footer {
+  color: white;
+  text-align: center;
+  /*NEWS LETTER E-MAIL ADDRESS*/
+  .newsletter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 16px;
+  }
+}
+
+.form-outline {
+  padding-left: 8px;
+  padding-right: 8px;
+}
 
 .form-label {
   display: flex;
   justify-content: flex-start;
+}
+
+.send-button {
+  margin: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+/*COPYRIGHT*/
+
+.copyright {
+  color: white;
+  text-align: center;
+  padding: 8px;
+  background-color: rgba(0, 0, 0, 0.2);
 }
 /*ID*/
 
@@ -94,29 +150,39 @@
   justify-content: center;
   padding: 80px;
 }
-
-#my-photo {
-  margin-left: 150px;
-  margin-right: 40px;
-}
 /*RESPONSIVE*/
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .navbar div a h1 {
     display: flex;
     flex-wrap: wrap;
   }
 
   .text-muted {
-    padding: 10;
+    padding: 0;
   }
 
   .cover {
     padding-top: 150px;
   }
 
-  #my-photo {
+  .about img {
     margin-left: 0;
     margin-bottom: 20px;
+  }
+
+  .skills img {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+  .skills-logs {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .contact {
+    margin-left: 56px;
+    margin-right: 56px;
   }
 
   #logo {
