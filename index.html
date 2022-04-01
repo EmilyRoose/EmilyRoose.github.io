@@ -63,26 +63,23 @@
   </header>
   <!--COVER IMAGE-->
   <div class="cover">
-    <img src="asset/img/img.cover.png" class="img-fluid" alt="emily create your page">
+    <img src="asset/img/img.cover.png" class="img-fluid" alt="cover of home page: Emily create your page">
   </div>
-  <section>
-    <!--ABOUT-ME-->
-    <div class=" container-fluid text-center">
-      <div class="container">
-        <a name="About-me">
-          <img src="asset/img/logo-punti.png" alt="" class="img-fluid" id="logo">
-          <div class="container my-5">
-            <figure class="about">
-              <img align="left" src="asset/img/foto-emily.jpg" alt="primo piano di emily" class="img-fluid" id=my-photo>
-              <figcaption align="left">
-                <h3>About me</h3><br>Hi! i'm Emily Ortolani, I'm 25. I'm italian student with the goal of becoming a great front-end developer. <br>
-                Humanities studies brought me closer to the world of psychology and sociology, <br>
-                so I was also passionate about the psychological side of marketing. <br>
-                Meanwhile my previous work experiences has enabled me to develop a propensity for teamwork and problem solving. <br>I still have a long way to go, but you have to start somewhere! Right? <br>
-                <br> Welcome to my portfolio!
-              </figcaption>
-            </figure>
-          </div>
+  <!--ABOUT-ME-->
+  <section class=" container-fluid text-center">
+    <a name="About-me">
+      <img src="asset/img/logo-punti.png" alt="" class="img-fluid" id="logo">
+      <div class="container my-5">
+        <figure class="about">
+          <img align="left" src="asset/img/foto-emily.jpg" alt="primo piano di emily" class="img-fluid">
+          <figcaption align="left">
+            <h3>About me</h3><br>Hi! i'm Emily Ortolani, I'm 25. I'm italian student with the goal of becoming a great front-end developer. <br>
+            Humanities studies brought me closer to the world of psychology and sociology, <br>
+            so I was also passionate about the psychological side of marketing. <br>
+            Meanwhile my previous work experiences has enabled me to develop a propensity for teamwork and problem solving. <br>I still have a long way to go, but you have to start somewhere! Right? <br>
+            <br> Welcome to my portfolio!
+          </figcaption>
+        </figure>
       </div>
   </section>
   <section>
@@ -95,53 +92,46 @@
           For any information or enquiries do not hesitate to contact me:
         </p>
     </section>
-    <form action="contact">
-      <div class="container my-5 px-5">
-        <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label">Email address</label>
-          <input type="email" class="form-control" placeholder="name@example.com">
-        </div>
-        <div class="mb-3">
-          <label for="exampleFormControlTextarea1" class="form-label"></label>
-          <textarea class="form-control" rows="3" placeholder="Text here.."></textarea>
-        </div>
+    <form class="contact">
+      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+      <input type="email" class="form-control" placeholder="name@example.com">
       </div>
-      <div class=" d-flex justify-content-center">
-        <div class="col-auto">
-          <!-- BUTTON -->
-          <button type="submit" class="btn btn-danger mb-4">Send</button>
-        </div>
+      <div class="">
+        <label for="exampleFormControlTextarea1" class="form-label"></label>
+        <textarea class="form-control" rows="3" placeholder="Text here.."></textarea>
+      </div>
+      </div>
+      <div class="send-button">
+        <!-- BUTTON -->
+        <button type="submit" class="btn btn-danger">Send</button>
       </div>
     </form>
-    </div>
 </body>
 
 <!-- FOOTER -->
-<footer class="text-center text-white" id="footer">
-  <div class="container p-3">
-    <div class="row d-flex justify-content-center">
-      <div class="col-auto">
-        <p class="pt-2">
-          <strong>Sign up for our newsletter</strong>
-        </p>
+<footer class="footer">
+  <div class="newsletter">
+    <div class="col-auto">
+      <p class="pt-2">
+        <strong>Sign up for our newsletter</strong>
+      </p>
+    </div>
+    <div class="col-md-5 col-12">
+      <!--EMAIL NEWSLETTER -->
+      <div class="form-outline">
+        <input type="email" class="form-control" />
+        <label class="form-label" for="form5Example2">Email address</label>
       </div>
-      <div class="col-md-5 col-12">
-        <!--EMAIL NEWSLETTER -->
-        <div class="form-outline form-white mb-4">
-          <input type="email" class="form-control" />
-          <label class="form-label" for="form5Example2">Email address</label>
-        </div>
-      </div>
-      <div class="col-auto">
-        <!--SUBSCRIVE BOTTON -->
-        <button type="submit" class="btn btn-outline-light mb-4">
-          Subscribe
-        </button>
-      </div>
+    </div>
+    <div class="col-auto">
+      <!--SUBSCRIVE BOTTON -->
+      <button type="submit" class="btn btn-outline-light mb-4">
+        Subscribe
+      </button>
     </div>
   </div>
   <!--COPYRIGHT-->
-  <div class="container-fluid text-white text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+  <div class="copyright">
     © 2022 Copyright:
     <a href="file:///C:/Users/Emily/OneDrive/Desktop/My-page-s2i/index.html"><img src="asset/img/logo.png" alt="emily create" id="emily"></a>
   </div>
